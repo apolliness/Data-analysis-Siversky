@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "dentist",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::3857" } },
+"features": [
+{ "type": "Feature", "properties": { }, "geometry": { "type": "Point", "coordinates": [ 3346894.888583942782134, 8257589.883809484541416 ] } }
+]
+}

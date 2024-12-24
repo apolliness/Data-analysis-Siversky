@@ -1,0 +1,13 @@
+{
+"type": "FeatureCollection",
+"name": "mall",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "element_type": "way", "osmid": 122071246, "name": "Простор" }, "geometry": { "type": "Point", "coordinates": [ 30.064976043026466, 59.355637405926991 ] } },
+{ "type": "Feature", "properties": { "element_type": null, "osmid": null, "name": null }, "geometry": { "type": "Point", "coordinates": [ 30.065787689642935, 59.356056774707909 ] } },
+{ "type": "Feature", "properties": { "element_type": null, "osmid": null, "name": "Май" }, "geometry": { "type": "Point", "coordinates": [ 30.064376858214281, 59.353214938204658 ] } },
+{ "type": "Feature", "properties": { "element_type": null, "osmid": null, "name": null }, "geometry": { "type": "Point", "coordinates": [ 30.066678741071556, 59.354552302665468 ] } },
+{ "type": "Feature", "properties": { "element_type": null, "osmid": null, "name": "Простор" }, "geometry": { "type": "Point", "coordinates": [ 30.068958966428863, 59.361463807642565 ] } },
+{ "type": "Feature", "properties": { "element_type": null, "osmid": null, "name": "Руслан" }, "geometry": { "type": "Point", "coordinates": [ 30.037615923034174, 59.345298491225847 ] } }
+]
+}

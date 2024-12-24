@@ -1,0 +1,10 @@
+{
+"type": "FeatureCollection",
+"name": "veterinary",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "name": "Кузя и Ко" }, "geometry": { "type": "Point", "coordinates": [ 30.069915439868861, 59.363780461887195 ] } },
+{ "type": "Feature", "properties": { "name": "Сиверский ветеринарный участок" }, "geometry": { "type": "Point", "coordinates": [ 30.086297654777368, 59.371948293507643 ] } },
+{ "type": "Feature", "properties": { "name": null }, "geometry": { "type": "Point", "coordinates": [ 30.041753104744952, 59.351540513892644 ] } }
+]
+}

@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "driving_school",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "fid": 1, "Name": "Навигатор 47" }, "geometry": { "type": "Point", "coordinates": [ 30.065719019125311, 59.353947186530633 ] } }
+]
+}

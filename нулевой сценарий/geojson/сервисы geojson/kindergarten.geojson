@@ -1,0 +1,13 @@
+{
+"type": "FeatureCollection",
+"name": "kindergarten",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "full_id": null, "osm_id": null, "amenity": "kindergartens", "name": "МБОУ Сиверская средняя общеобразовательная школа № 3, структурное подразделение дошкольные группы", "type": "kindergartens", "capacity": 183 }, "geometry": { "type": "Point", "coordinates": [ 30.0544298151177, 59.34955580232841 ] } },
+{ "type": "Feature", "properties": { "full_id": null, "osm_id": null, "amenity": "kindergartens", "name": "Центр Развития Ребёнка - детский сад № 53", "type": "kindergartens", "capacity": 189 }, "geometry": { "type": "Point", "coordinates": [ 30.068628370507771, 59.355609811560448 ] } },
+{ "type": "Feature", "properties": { "full_id": null, "osm_id": null, "amenity": "kindergartens", "name": "Детский сад № 54 Комбинированного Вида", "type": "kindergartens", "capacity": 80 }, "geometry": { "type": "Point", "coordinates": [ 30.080659852032557, 59.360204386732235 ] } },
+{ "type": "Feature", "properties": { "full_id": null, "osm_id": null, "amenity": "kindergartens", "name": "Детский сад № 54 Комбинированного Вида", "type": "kindergartens", "capacity": 68 }, "geometry": { "type": "Point", "coordinates": [ 30.095913800538828, 59.356464830592756 ] } },
+{ "type": "Feature", "properties": { "full_id": null, "osm_id": null, "amenity": "kindergartens", "name": "МБОУ «Белогорская начальная школа – детский сад»", "type": "kindergartens", "capacity": 55 }, "geometry": { "type": "Point", "coordinates": [ 30.131930849617959, 59.34873115166257 ] } },
+{ "type": "Feature", "properties": { "full_id": null, "osm_id": null, "amenity": "kindergartens", "name": "МБДОУ детский сад № 2 комбинированного вида", "type": "kindergartens", "capacity": 85 }, "geometry": { "type": "Point", "coordinates": [ 30.10360761635598, 59.3683358653713 ] } }
+]
+}

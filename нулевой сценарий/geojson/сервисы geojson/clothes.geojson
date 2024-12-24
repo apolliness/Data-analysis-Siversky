@@ -1,0 +1,9 @@
+{
+"type": "FeatureCollection",
+"name": "clothes",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "name": "Семья" }, "geometry": { "type": "Point", "coordinates": [ 30.065235480316435, 59.354827528114185 ] } },
+{ "type": "Feature", "properties": { "name": "Розовый Фламинго" }, "geometry": { "type": "Point", "coordinates": [ 30.065318742436698, 59.354961255014743 ] } }
+]
+}

@@ -1,0 +1,14 @@
+{
+"type": "FeatureCollection",
+"name": "atm",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "full_id": null, "osm_id": null, "osm_type": null, "amenity": null, "brand": null, "addr:full": null, "opening_hours": null, "operator": "ПАО Сбербанк" }, "geometry": { "type": "Point", "coordinates": [ 30.044465573134545, 59.34676812543065 ] } },
+{ "type": "Feature", "properties": { "full_id": null, "osm_id": null, "osm_type": null, "amenity": null, "brand": null, "addr:full": null, "opening_hours": null, "operator": "Газпромбанк" }, "geometry": { "type": "Point", "coordinates": [ 30.066905629283887, 59.355469257329325 ] } },
+{ "type": "Feature", "properties": { "full_id": null, "osm_id": null, "osm_type": null, "amenity": null, "brand": null, "addr:full": null, "opening_hours": null, "operator": "Сбербанк" }, "geometry": { "type": "Point", "coordinates": [ 30.068715849026947, 59.355612347608073 ] } },
+{ "type": "Feature", "properties": { "full_id": null, "osm_id": null, "osm_type": null, "amenity": null, "brand": null, "addr:full": null, "opening_hours": null, "operator": "Почтабанк" }, "geometry": { "type": "Point", "coordinates": [ 30.064698516442089, 59.356683038481769 ] } },
+{ "type": "Feature", "properties": { "full_id": null, "osm_id": null, "osm_type": null, "amenity": null, "brand": null, "addr:full": null, "opening_hours": null, "operator": "ВТБ" }, "geometry": { "type": "Point", "coordinates": [ 30.068909455416588, 59.361513062689902 ] } },
+{ "type": "Feature", "properties": { "full_id": "n3715247877", "osm_id": "3715247877", "osm_type": "node", "amenity": "atm", "brand": null, "addr:full": null, "opening_hours": null, "operator": "ПАО Сбербанк" }, "geometry": { "type": "Point", "coordinates": [ 30.071184330494756, 59.363205135338326 ] } },
+{ "type": "Feature", "properties": { "full_id": "n7228925624", "osm_id": "7228925624", "osm_type": "node", "amenity": "atm", "brand": null, "addr:full": null, "opening_hours": "Mo-Su 09:00-19:00", "operator": "ПАО Сбербанк" }, "geometry": { "type": "Point", "coordinates": [ 30.066286088837067, 59.35447254279201 ] } }
+]
+}

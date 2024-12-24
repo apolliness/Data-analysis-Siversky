@@ -1,0 +1,12 @@
+{
+"type": "FeatureCollection",
+"name": "religion",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "full_id": null, "osm_id": null, "amenity": null, "name": "Никольская церковь", "type": null }, "geometry": { "type": "Point", "coordinates": [ 30.134592502038309, 59.349806992402783 ] } },
+{ "type": "Feature", "properties": { "full_id": null, "osm_id": null, "amenity": null, "name": "Тихвинская церковь", "type": null }, "geometry": { "type": "Point", "coordinates": [ 30.045591147088004, 59.341754274746656 ] } },
+{ "type": "Feature", "properties": { "full_id": null, "osm_id": null, "amenity": null, "name": "Петропавловская церковь", "type": null }, "geometry": { "type": "Point", "coordinates": [ 30.085875575752954, 59.363714073843994 ] } },
+{ "type": "Feature", "properties": { "full_id": null, "osm_id": null, "amenity": null, "name": "Преображенская церковь", "type": null }, "geometry": { "type": "Point", "coordinates": [ 30.079373089568904, 59.368493402992833 ] } },
+{ "type": "Feature", "properties": { "full_id": null, "osm_id": null, "amenity": null, "name": "Казанская церковь", "type": null }, "geometry": { "type": "Point", "coordinates": [ 30.138448930781927, 59.389024105881099 ] } }
+]
+}

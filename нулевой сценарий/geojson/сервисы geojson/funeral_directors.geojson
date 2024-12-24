@@ -1,0 +1,10 @@
+{
+"type": "FeatureCollection",
+"name": "funeral_directors",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "fid": 1, "name": "Черный тюльпан", "type": "ритуальные услуги", "address": "шоссе Крамского, 4" }, "geometry": { "type": "Point", "coordinates": [ 30.062357910017248, 59.355250466618713 ] } },
+{ "type": "Feature", "properties": { "fid": 2, "name": "ФотоМагазин", "type": "ритуальные услуги", "address": "ул. Вокзальная, 1А" }, "geometry": { "type": "Point", "coordinates": [ 30.129086846980076, 59.346113378922517 ] } },
+{ "type": "Feature", "properties": { "fid": 4, "name": "Невгранит", "type": "изготовление памятников", "address": "шоссе Крамского, 4" }, "geometry": { "type": "Point", "coordinates": [ 30.062360983168386, 59.355204101821592 ] } }
+]
+}

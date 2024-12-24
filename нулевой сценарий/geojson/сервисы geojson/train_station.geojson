@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "train_station",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "full_id": "n7397289567", "osm_id": "7397289567", "osm_type": "node", "railway": "station", "operator": "ОАО «РЖД»", "name:ru": "Сиверская", "name:en": "Siverskaya", "name:de": "Siwerskaja", "wikipedia": "ru:Сиверская (станция)", "wikidata": "Q4418456", "uic_ref": "2004638", "train": "yes", "public_transport": "station", "operator:branch": "Октябрьская железная дорога", "name": "Сиверская", "esr:user": "072507" }, "geometry": { "type": "Point", "coordinates": [ 30.0626379, 59.3546861 ] } }
+]
+}

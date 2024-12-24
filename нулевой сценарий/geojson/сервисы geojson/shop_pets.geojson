@@ -1,0 +1,9 @@
+{
+"type": "FeatureCollection",
+"name": "shop_pets",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { }, "geometry": { "type": "Point", "coordinates": [ 30.067558964766953, 59.355834871085101 ] } },
+{ "type": "Feature", "properties": { }, "geometry": { "type": "Point", "coordinates": [ 30.066792324867126, 59.354595306496272 ] } }
+]
+}

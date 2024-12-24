@@ -1,0 +1,9 @@
+{
+"type": "FeatureCollection",
+"name": "post_office",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "full_id": "n3919522457", "osm_id": "3919522457", "osm_type": "node", "amenity": "post_office", "contact:website": null, "contact:phone": null, "contact:email": null, "brand:wikidata": null, "brand": null, "website": null, "ref": "188330", "operator": "Почта России", "opening_hours": "Mo-Fr 10:00-18:00", "name": "Сиверский 188330" }, "geometry": { "type": "Point", "coordinates": [ 30.0646739, 59.3564928 ] } },
+{ "type": "Feature", "properties": { "full_id": "n11824486769", "osm_id": "11824486769", "osm_type": "node", "amenity": "post_office", "contact:website": "https://www.cdek.ru", "contact:phone": "+7 981 1988078", "contact:email": "d.chepel@cdek.ru", "brand:wikidata": null, "brand": null, "website": null, "ref": null, "operator": null, "opening_hours": "Mo-Fr 10:00-19:00; Sa 10:00-16:00", "name": "СДЭК" }, "geometry": { "type": "Point", "coordinates": [ 30.0655852, 59.3551581 ] } }
+]
+}

@@ -1,0 +1,9 @@
+{
+"type": "FeatureCollection",
+"name": "public_bath",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "name": "Баня" }, "geometry": { "type": "Point", "coordinates": [ 30.12899985933327, 59.34604425572374 ] } },
+{ "type": "Feature", "properties": { "name": "Баня на дровах" }, "geometry": { "type": "Point", "coordinates": [ 30.137495594534592, 59.390334189819477 ] } }
+]
+}

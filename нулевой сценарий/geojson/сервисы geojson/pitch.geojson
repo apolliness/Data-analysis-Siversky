@@ -1,0 +1,18 @@
+{
+"type": "FeatureCollection",
+"name": "pitch",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "full_id": "n7906940712", "osm_id": "7906940712", "osm_type": "node", "leisure": "pitch", "sport": "beachvolleyball;soccer" }, "geometry": { "type": "Point", "coordinates": [ 30.0817114, 59.3367721 ] } },
+{ "type": "Feature", "properties": { "full_id": null, "osm_id": null, "osm_type": null, "leisure": null, "sport": null }, "geometry": { "type": "Point", "coordinates": [ 30.06774475417685, 59.352083041159915 ] } },
+{ "type": "Feature", "properties": { "full_id": null, "osm_id": null, "osm_type": null, "leisure": null, "sport": null }, "geometry": { "type": "Point", "coordinates": [ 30.050988258345548, 59.348418864119864 ] } },
+{ "type": "Feature", "properties": { "full_id": null, "osm_id": null, "osm_type": null, "leisure": null, "sport": null }, "geometry": { "type": "Point", "coordinates": [ 30.038152793537456, 59.346882427391151 ] } },
+{ "type": "Feature", "properties": { "full_id": null, "osm_id": null, "osm_type": null, "leisure": null, "sport": null }, "geometry": { "type": "Point", "coordinates": [ 30.066309425849965, 59.356534470149626 ] } },
+{ "type": "Feature", "properties": { "full_id": null, "osm_id": null, "osm_type": null, "leisure": null, "sport": null }, "geometry": { "type": "Point", "coordinates": [ 30.106790084141434, 59.358560966421138 ] } },
+{ "type": "Feature", "properties": { "full_id": null, "osm_id": null, "osm_type": null, "leisure": null, "sport": null }, "geometry": { "type": "Point", "coordinates": [ 30.037063923772266, 59.341476309081401 ] } },
+{ "type": "Feature", "properties": { "full_id": null, "osm_id": null, "osm_type": null, "leisure": null, "sport": null }, "geometry": { "type": "Point", "coordinates": [ 30.076670186646215, 59.349310414140689 ] } },
+{ "type": "Feature", "properties": { "full_id": null, "osm_id": null, "osm_type": null, "leisure": null, "sport": null }, "geometry": { "type": "Point", "coordinates": [ 30.080115524564928, 59.361921376119376 ] } },
+{ "type": "Feature", "properties": { "full_id": null, "osm_id": null, "osm_type": null, "leisure": null, "sport": null }, "geometry": { "type": "Point", "coordinates": [ 30.138680769840697, 59.393900074262078 ] } },
+{ "type": "Feature", "properties": { "full_id": null, "osm_id": null, "osm_type": null, "leisure": null, "sport": null }, "geometry": { "type": "Point", "coordinates": [ 30.127049660985044, 59.348431480557068 ] } }
+]
+}

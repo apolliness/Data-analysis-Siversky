@@ -1,0 +1,11 @@
+{
+"type": "FeatureCollection",
+"name": "estate_agent",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "fid": 1, "name": "Нев-Альянс", "address": "ул. Строителей, 1" }, "geometry": { "type": "Point", "coordinates": [ 30.066426859270976, 59.354472183359469 ] } },
+{ "type": "Feature", "properties": { "fid": 2, "name": "Сиверский правовой центр", "address": "ул. Вокзальная, 3А" }, "geometry": { "type": "Point", "coordinates": [ 30.065815372633981, 59.35530272480738 ] } },
+{ "type": "Feature", "properties": { "fid": 3, "name": "Гермес Риелт", "address": "ул. Вокзальная, 3А" }, "geometry": { "type": "Point", "coordinates": [ 30.06567623196209, 59.355368047430062 ] } },
+{ "type": "Feature", "properties": { "fid": 4, "name": "Сиверское Центральное Агенство недвижимости ", "address": "ул. Вокзальная, 1А" }, "geometry": { "type": "Point", "coordinates": [ 30.064943912636327, 59.355670396217612 ] } }
+]
+}

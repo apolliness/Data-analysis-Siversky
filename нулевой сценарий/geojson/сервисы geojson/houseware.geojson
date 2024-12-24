@@ -1,0 +1,11 @@
+{
+"type": "FeatureCollection",
+"name": "houseware",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "fid": 1, "name": "Все упаковано", "address": "ул. Строителей, 9" }, "geometry": { "type": "Point", "coordinates": [ 30.064371788163104, 59.353250597273025 ] } },
+{ "type": "Feature", "properties": { "fid": 2, "name": "Улыбка радуги", "address": "ул. Вокзальная, 1Б" }, "geometry": { "type": "Point", "coordinates": [ 30.0649576436237, 59.355187943323003 ] } },
+{ "type": "Feature", "properties": { "fid": 3, "name": "Fix Price", "address": "ул. Строителей, 1А" }, "geometry": { "type": "Point", "coordinates": [ 30.065257894547262, 59.355686260122845 ] } },
+{ "type": "Feature", "properties": { "fid": 4, "name": "Магнит Косметик", "address": "ул. Заводская, 9, к. 10" }, "geometry": { "type": "Point", "coordinates": [ 30.068978076722093, 59.361529271949991 ] } }
+]
+}
