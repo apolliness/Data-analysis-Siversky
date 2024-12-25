@@ -137,13 +137,13 @@
 Гипотеза №3 существенно отличается от первых двух: в данном сценарии территория преобразуется в промышленную, без планов на жилую застройку и развитие сервисов. 
 
 #### Подготовка данных и создание модели территории
-Кварталы и промышленные здания были отрисованы вручную.
+[Кварталы и промышленные здания](https://github.com/apolliness/Data-analysis-Siversky/blob/7c0046c5dbcf17ac8512ccf0fe8b9b55e7ab85f4/%D0%B3%D0%B8%D0%BF%D0%BE%D1%82%D0%B5%D0%B7%D0%B0%203/qgis/1.png) были отрисованы вручную.
 
 #### Применение методов оценки разработанной территории по гипотезе №3
 
 Были использованы следующие методы оценки территории: 
-1. Вычисление матрицы доступности, матрицы связанности на основе графа. Также была произведена оценка центральности населения и определение и морфотипа застройки (метрика SpaceMatrix).
-картинки
+1. Вычисление [матрицы доступности](https://github.com/apolliness/Data-analysis-Siversky/blob/7c0046c5dbcf17ac8512ccf0fe8b9b55e7ab85f4/%D0%B3%D0%B8%D0%BF%D0%BE%D1%82%D0%B5%D0%B7%D0%B0%203/%D0%B3%D1%80%D0%B0%D1%84%2C%20%D0%B4%D0%BE%D1%81%D1%82%D1%83%D0%BF%D0%BD%D0%BE%D1%81%D1%82%D1%8C%2C%20%D1%81%D0%B2%D1%8F%D0%B7%D0%B0%D0%BD%D0%BD%D0%BE%D1%81%D1%82%D1%8C/Accessibility_3.png), [матрицы связанности](https://github.com/apolliness/Data-analysis-Siversky/blob/f956bdc49404c11500360c23332e5e994ec22804/%D0%B3%D0%B8%D0%BF%D0%BE%D1%82%D0%B5%D0%B7%D0%B0%203/%D0%B3%D1%80%D0%B0%D1%84%2C%20%D0%B4%D0%BE%D1%81%D1%82%D1%83%D0%BF%D0%BD%D0%BE%D1%81%D1%82%D1%8C%2C%20%D1%81%D0%B2%D1%8F%D0%B7%D0%B0%D0%BD%D0%BD%D0%BE%D1%81%D1%82%D1%8C/Connectivity_3.png) на основе [графа](https://github.com/apolliness/Data-analysis-Siversky/blob/f956bdc49404c11500360c23332e5e994ec22804/%D0%B3%D0%B8%D0%BF%D0%BE%D1%82%D0%B5%D0%B7%D0%B0%203/%D0%B3%D1%80%D0%B0%D1%84%2C%20%D0%B4%D0%BE%D1%81%D1%82%D1%83%D0%BF%D0%BD%D0%BE%D1%81%D1%82%D1%8C%2C%20%D1%81%D0%B2%D1%8F%D0%B7%D0%B0%D0%BD%D0%BD%D0%BE%D1%81%D1%82%D1%8C/graph_3.png).
+2. Оценка [центральности населения](https://github.com/apolliness/Data-analysis-Siversky/blob/f956bdc49404c11500360c23332e5e994ec22804/%D0%B3%D0%B8%D0%BF%D0%BE%D1%82%D0%B5%D0%B7%D0%B0%203/%D1%86%D0%B5%D0%BD%D1%82%D1%80%D0%B0%D0%BB%D1%8C%D0%BD%D0%BE%D1%81%D1%82%D1%8C/%D1%86%D0%B5%D0%BD%D1%82%D1%80%D0%B0%D0%BB%D1%8C%D0%BD%D0%BE%D1%81%D1%82%D1%8C%20%D0%BF%D0%BE%20%D0%BD%D0%B0%D1%81%D0%B5%D0%BB%D0%B5%D0%BD%D0%B8%D1%8E.png) и определение и морфотипа застройки (метрика [SpaceMatrix](https://github.com/apolliness/Data-analysis-Siversky/blob/f956bdc49404c11500360c23332e5e994ec22804/%D0%B3%D0%B8%D0%BF%D0%BE%D1%82%D0%B5%D0%B7%D0%B0%203/SpaceMatrix/SpaceMatrix.png)).
 
 #### Критерии оценки гипотезы №3 и их интерпретация 
 
