@@ -26,71 +26,69 @@
 
 ### Нулевой сценарий
 Для предварительного анализа проектной территории, расположенной в границах Сиверского городского поселения, были проведены следующие шаги:
-1. Отрисовка геометрии границ территории.
+1. Отрисовка геометрии [границ территории](https://github.com/apolliness/Data-analysis-Siversky/blob/e5c94e53abdd469ff77ebc6c8665c1061768780f/%D0%BD%D1%83%D0%BB%D0%B5%D0%B2%D0%BE%D0%B9%20%D1%81%D1%86%D0%B5%D0%BD%D0%B0%D1%80%D0%B8%D0%B9/qgis/1.%D0%B3%D1%80%D0%B0%D0%BD%D0%B8%D1%86%D1%8B%20%D1%82%D0%B5%D1%80%D1%80%D0%B8%D1%82%D0%BE%D1%80%D0%B8%D0%B8.png).
    
 ![Границы территории](https://github.com/apolliness/Data-analysis-Siversky/blob/e5c94e53abdd469ff77ebc6c8665c1061768780f/%D0%BD%D1%83%D0%BB%D0%B5%D0%B2%D0%BE%D0%B9%20%D1%81%D1%86%D0%B5%D0%BD%D0%B0%D1%80%D0%B8%D0%B9/qgis/1.%D0%B3%D1%80%D0%B0%D0%BD%D0%B8%D1%86%D1%8B%20%D1%82%D0%B5%D1%80%D1%80%D0%B8%D1%82%D0%BE%D1%80%D0%B8%D0%B8.png)
 
-2. Получение геометрии водных объектов, улично-дорожной сети и железных дорог с помощью библиотеки OSMNX.
+2. Получение геометрии [водных объектов, улично-дорожной сети и железных дорог](https://github.com/apolliness/Data-analysis-Siversky/blob/66cec1c49c0e888ba14a82ac3d9cdf6a5bf5c165/%D0%BD%D1%83%D0%BB%D0%B5%D0%B2%D0%BE%D0%B9%20%D1%81%D1%86%D0%B5%D0%BD%D0%B0%D1%80%D0%B8%D0%B9/qgis/2.%D0%B2%D0%BE%D0%B4%D0%B0%2C%20%D0%B6%D0%B4%20%D0%B8%20%D0%B4%D0%BE%D1%80%D0%BE%D0%B3%D0%B8.png) с помощью библиотеки OSMNX.
    
 ![Вода, ж/д и дороги](https://github.com/apolliness/Data-analysis-Siversky/blob/66cec1c49c0e888ba14a82ac3d9cdf6a5bf5c165/%D0%BD%D1%83%D0%BB%D0%B5%D0%B2%D0%BE%D0%B9%20%D1%81%D1%86%D0%B5%D0%BD%D0%B0%D1%80%D0%B8%D0%B9/qgis/2.%D0%B2%D0%BE%D0%B4%D0%B0%2C%20%D0%B6%D0%B4%20%D0%B8%20%D0%B4%D0%BE%D1%80%D0%BE%D0%B3%D0%B8.png)
 
-3. Получение слоя городских кварталов с помощью BlocksGenerator. На вход были поданы следующие данные: водные объекты, дороги, железнодорожные пути.
+3. Получение слоя [городских кварталов](https://github.com/apolliness/Data-analysis-Siversky/blob/e5c94e53abdd469ff77ebc6c8665c1061768780f/%D0%BD%D1%83%D0%BB%D0%B5%D0%B2%D0%BE%D0%B9%20%D1%81%D1%86%D0%B5%D0%BD%D0%B0%D1%80%D0%B8%D0%B9/qgis/3.%D0%BA%D0%B2%D0%B0%D1%80%D1%82%D0%B0%D0%BB%D1%8B.png) с помощью BlocksGenerator. На вход были поданы следующие данные: водные объекты, дороги, железнодорожные пути.
 
 ![Кварталы](https://github.com/apolliness/Data-analysis-Siversky/blob/e5c94e53abdd469ff77ebc6c8665c1061768780f/%D0%BD%D1%83%D0%BB%D0%B5%D0%B2%D0%BE%D0%B9%20%D1%81%D1%86%D0%B5%D0%BD%D0%B0%D1%80%D0%B8%D0%B9/qgis/3.%D0%BA%D0%B2%D0%B0%D1%80%D1%82%D0%B0%D0%BB%D1%8B.png)
 
-4. Получение графа улично-дорожной сети по полигону территории с помощью библиотеки IduEdu.
+4. Получение [графа улично-дорожной сети](https://github.com/apolliness/Data-analysis-Siversky/blob/03b65bda9e205cd78efb955761ab561a8f89d366/%D0%BD%D1%83%D0%BB%D0%B5%D0%B2%D0%BE%D0%B9%20%D1%81%D1%86%D0%B5%D0%BD%D0%B0%D1%80%D0%B8%D0%B9/%D0%B3%D1%80%D0%B0%D1%84%2C%20%D0%B4%D0%BE%D1%81%D1%82%D1%83%D0%BF%D0%BD%D0%BE%D1%81%D1%82%D1%8C%2C%20%D1%81%D0%B2%D1%8F%D0%B7%D0%B0%D0%BD%D0%BD%D0%BE%D1%81%D1%82%D1%8C/graph_0.png) по полигону территории с помощью библиотеки IduEdu.
 
 ![Граф](https://github.com/apolliness/Data-analysis-Siversky/blob/03b65bda9e205cd78efb955761ab561a8f89d366/%D0%BD%D1%83%D0%BB%D0%B5%D0%B2%D0%BE%D0%B9%20%D1%81%D1%86%D0%B5%D0%BD%D0%B0%D1%80%D0%B8%D0%B9/%D0%B3%D1%80%D0%B0%D1%84%2C%20%D0%B4%D0%BE%D1%81%D1%82%D1%83%D0%BF%D0%BD%D0%BE%D1%81%D1%82%D1%8C%2C%20%D1%81%D0%B2%D1%8F%D0%B7%D0%B0%D0%BD%D0%BD%D0%BE%D1%81%D1%82%D1%8C/graph_0.png)
 
 5. Вычисление матрицы доступности и матрицы связанности на основе предварительно полученного графа улично-дорожной сети.
    
-- Матрица доступности:
+- Матрица [доступности](https://github.com/apolliness/Data-analysis-Siversky/blob/03b65bda9e205cd78efb955761ab561a8f89d366/%D0%BD%D1%83%D0%BB%D0%B5%D0%B2%D0%BE%D0%B9%20%D1%81%D1%86%D0%B5%D0%BD%D0%B0%D1%80%D0%B8%D0%B9/%D0%B3%D1%80%D0%B0%D1%84%2C%20%D0%B4%D0%BE%D1%81%D1%82%D1%83%D0%BF%D0%BD%D0%BE%D1%81%D1%82%D1%8C%2C%20%D1%81%D0%B2%D1%8F%D0%B7%D0%B0%D0%BD%D0%BD%D0%BE%D1%81%D1%82%D1%8C/Accessibility_0.png):
 
 ![Доступность](https://github.com/apolliness/Data-analysis-Siversky/blob/03b65bda9e205cd78efb955761ab561a8f89d366/%D0%BD%D1%83%D0%BB%D0%B5%D0%B2%D0%BE%D0%B9%20%D1%81%D1%86%D0%B5%D0%BD%D0%B0%D1%80%D0%B8%D0%B9/%D0%B3%D1%80%D0%B0%D1%84%2C%20%D0%B4%D0%BE%D1%81%D1%82%D1%83%D0%BF%D0%BD%D0%BE%D1%81%D1%82%D1%8C%2C%20%D1%81%D0%B2%D1%8F%D0%B7%D0%B0%D0%BD%D0%BD%D0%BE%D1%81%D1%82%D1%8C/Accessibility_0.png)
 
 Площадь территории маленькая, поэтому среднее медианное значение от одного квартала до другого будет равняться 10-15 минут.
 
-- Матрица связанности:
+- Матрица [связанности](https://github.com/apolliness/Data-analysis-Siversky/blob/03b65bda9e205cd78efb955761ab561a8f89d366/%D0%BD%D1%83%D0%BB%D0%B5%D0%B2%D0%BE%D0%B9%20%D1%81%D1%86%D0%B5%D0%BD%D0%B0%D1%80%D0%B8%D0%B9/%D0%B3%D1%80%D0%B0%D1%84%2C%20%D0%B4%D0%BE%D1%81%D1%82%D1%83%D0%BF%D0%BD%D0%BE%D1%81%D1%82%D1%8C%2C%20%D1%81%D0%B2%D1%8F%D0%B7%D0%B0%D0%BD%D0%BD%D0%BE%D1%81%D1%82%D1%8C/Connectivity_0.png):
 
 ![Связанность](https://github.com/apolliness/Data-analysis-Siversky/blob/03b65bda9e205cd78efb955761ab561a8f89d366/%D0%BD%D1%83%D0%BB%D0%B5%D0%B2%D0%BE%D0%B9%20%D1%81%D1%86%D0%B5%D0%BD%D0%B0%D1%80%D0%B8%D0%B9/%D0%B3%D1%80%D0%B0%D1%84%2C%20%D0%B4%D0%BE%D1%81%D1%82%D1%83%D0%BF%D0%BD%D0%BE%D1%81%D1%82%D1%8C%2C%20%D1%81%D0%B2%D1%8F%D0%B7%D0%B0%D0%BD%D0%BD%D0%BE%D1%81%D1%82%D1%8C/Connectivity_0.png)
 
-6. Получение данных по зданиям и сервисам для проектной территории с помощью библиотеки OSMNX и расчет обеспеченности для каждого типа сервиса: школы, поликлиники, автобусные остановки, банки, пекарни, детские сады.
+6. Получение данных по зданиям и сервисам для проектной территории с помощью библиотеки OSMNX и расчет обеспеченности для каждого типа сервиса. Ниже представлены только три:
    
-- Обеспеченность школами исследуемой территории
+- Обеспеченность [школами](https://github.com/apolliness/Data-analysis-Siversky/blob/838b32c502511ade30de5bbb8d0dc31c3087b53d/%D0%BD%D1%83%D0%BB%D0%B5%D0%B2%D0%BE%D0%B9%20%D1%81%D1%86%D0%B5%D0%BD%D0%B0%D1%80%D0%B8%D0%B9/%D0%BE%D0%B1%D0%B5%D1%81%D0%BF%D0%B5%D1%87%D0%B5%D0%BD%D0%BD%D0%BE%D1%81%D1%82%D1%8C%20%D1%81%D0%B5%D1%80%D0%B2%D0%B8%D1%81%D0%B0%D0%BC%D0%B8/school_0.png) исследуемой территории
 
 ![Школы](https://github.com/apolliness/Data-analysis-Siversky/blob/838b32c502511ade30de5bbb8d0dc31c3087b53d/%D0%BD%D1%83%D0%BB%D0%B5%D0%B2%D0%BE%D0%B9%20%D1%81%D1%86%D0%B5%D0%BD%D0%B0%D1%80%D0%B8%D0%B9/%D0%BE%D0%B1%D0%B5%D1%81%D0%BF%D0%B5%D1%87%D0%B5%D0%BD%D0%BD%D0%BE%D1%81%D1%82%D1%8C%20%D1%81%D0%B5%D1%80%D0%B2%D0%B8%D1%81%D0%B0%D0%BC%D0%B8/school_0.png)
 
-- Обеспеченность поликлиниками исследуемой территории
+- Обеспеченность [поликлиниками](https://github.com/apolliness/Data-analysis-Siversky/blob/838b32c502511ade30de5bbb8d0dc31c3087b53d/%D0%BD%D1%83%D0%BB%D0%B5%D0%B2%D0%BE%D0%B9%20%D1%81%D1%86%D0%B5%D0%BD%D0%B0%D1%80%D0%B8%D0%B9/%D0%BE%D0%B1%D0%B5%D1%81%D0%BF%D0%B5%D1%87%D0%B5%D0%BD%D0%BD%D0%BE%D1%81%D1%82%D1%8C%20%D1%81%D0%B5%D1%80%D0%B2%D0%B8%D1%81%D0%B0%D0%BC%D0%B8/polyclinic_0.png) исследуемой территории
 
 ![Поликлиники](https://github.com/apolliness/Data-analysis-Siversky/blob/838b32c502511ade30de5bbb8d0dc31c3087b53d/%D0%BD%D1%83%D0%BB%D0%B5%D0%B2%D0%BE%D0%B9%20%D1%81%D1%86%D0%B5%D0%BD%D0%B0%D1%80%D0%B8%D0%B9/%D0%BE%D0%B1%D0%B5%D1%81%D0%BF%D0%B5%D1%87%D0%B5%D0%BD%D0%BD%D0%BE%D1%81%D1%82%D1%8C%20%D1%81%D0%B5%D1%80%D0%B2%D0%B8%D1%81%D0%B0%D0%BC%D0%B8/polyclinic_0.png)
 
-- Обеспеченность детскими садами исследуемой территории
+- Обеспеченность [детскими садами](https://github.com/apolliness/Data-analysis-Siversky/blob/838b32c502511ade30de5bbb8d0dc31c3087b53d/%D0%BD%D1%83%D0%BB%D0%B5%D0%B2%D0%BE%D0%B9%20%D1%81%D1%86%D0%B5%D0%BD%D0%B0%D1%80%D0%B8%D0%B9/%D0%BE%D0%B1%D0%B5%D1%81%D0%BF%D0%B5%D1%87%D0%B5%D0%BD%D0%BD%D0%BE%D1%81%D1%82%D1%8C%20%D1%81%D0%B5%D1%80%D0%B2%D0%B8%D1%81%D0%B0%D0%BC%D0%B8/kindergarten_0.png) исследуемой территории
 
 ![Детские сады](https://github.com/apolliness/Data-analysis-Siversky/blob/838b32c502511ade30de5bbb8d0dc31c3087b53d/%D0%BD%D1%83%D0%BB%D0%B5%D0%B2%D0%BE%D0%B9%20%D1%81%D1%86%D0%B5%D0%BD%D0%B0%D1%80%D0%B8%D0%B9/%D0%BE%D0%B1%D0%B5%D1%81%D0%BF%D0%B5%D1%87%D0%B5%D0%BD%D0%BD%D0%BE%D1%81%D1%82%D1%8C%20%D1%81%D0%B5%D1%80%D0%B2%D0%B8%D1%81%D0%B0%D0%BC%D0%B8/kindergarten_0.png)
 
 7. Подсчет разнообразия сервисов, центральности кварталов (центральность населения, центральность сервисов), определение типа землепользования (LandUse) и морфотипа застройки (метрика SpaceMatrix).
 
-- Сервисное разнообразие исследуемой территории
+- [Сервисное разнообразие](https://github.com/apolliness/Data-analysis-Siversky/blob/838b32c502511ade30de5bbb8d0dc31c3087b53d/%D0%BD%D1%83%D0%BB%D0%B5%D0%B2%D0%BE%D0%B9%20%D1%81%D1%86%D0%B5%D0%BD%D0%B0%D1%80%D0%B8%D0%B9/%D0%BE%D0%B1%D0%B5%D1%81%D0%BF%D0%B5%D1%87%D0%B5%D0%BD%D0%BD%D0%BE%D1%81%D1%82%D1%8C%20%D1%81%D0%B5%D1%80%D0%B2%D0%B8%D1%81%D0%B0%D0%BC%D0%B8/services_diversity_0.png) исследуемой территории
 
 ![Разнообразие](https://github.com/apolliness/Data-analysis-Siversky/blob/838b32c502511ade30de5bbb8d0dc31c3087b53d/%D0%BD%D1%83%D0%BB%D0%B5%D0%B2%D0%BE%D0%B9%20%D1%81%D1%86%D0%B5%D0%BD%D0%B0%D1%80%D0%B8%D0%B9/%D0%BE%D0%B1%D0%B5%D1%81%D0%BF%D0%B5%D1%87%D0%B5%D0%BD%D0%BD%D0%BE%D1%81%D1%82%D1%8C%20%D1%81%D0%B5%D1%80%D0%B2%D0%B8%D1%81%D0%B0%D0%BC%D0%B8/services_diversity_0.png)
 
-- Центральность населения
+- [Центральность населения](https://github.com/apolliness/Data-analysis-Siversky/blob/838b32c502511ade30de5bbb8d0dc31c3087b53d/%D0%BD%D1%83%D0%BB%D0%B5%D0%B2%D0%BE%D0%B9%20%D1%81%D1%86%D0%B5%D0%BD%D0%B0%D1%80%D0%B8%D0%B9/%D1%86%D0%B5%D0%BD%D1%82%D1%80%D0%B0%D0%BB%D1%8C%D0%BD%D0%BE%D1%81%D1%82%D1%8C/%D1%86%D0%B5%D0%BD%D1%82%D1%80%D0%B0%D0%BB%D1%8C%D0%BD%D0%BE%D1%81%D1%82%D1%8C%20%D0%BD%D0%B0%D1%81%D0%B5%D0%BB%D0%B5%D0%BD%D0%B8%D1%8F.png)
 
 ![Центральность населения](https://github.com/apolliness/Data-analysis-Siversky/blob/838b32c502511ade30de5bbb8d0dc31c3087b53d/%D0%BD%D1%83%D0%BB%D0%B5%D0%B2%D0%BE%D0%B9%20%D1%81%D1%86%D0%B5%D0%BD%D0%B0%D1%80%D0%B8%D0%B9/%D1%86%D0%B5%D0%BD%D1%82%D1%80%D0%B0%D0%BB%D1%8C%D0%BD%D0%BE%D1%81%D1%82%D1%8C/%D1%86%D0%B5%D0%BD%D1%82%D1%80%D0%B0%D0%BB%D1%8C%D0%BD%D0%BE%D1%81%D1%82%D1%8C%20%D0%BD%D0%B0%D1%81%D0%B5%D0%BB%D0%B5%D0%BD%D0%B8%D1%8F.png)
 
-- Центральность сервисов
+- [Центральность сервисов](https://github.com/apolliness/Data-analysis-Siversky/blob/838b32c502511ade30de5bbb8d0dc31c3087b53d/%D0%BD%D1%83%D0%BB%D0%B5%D0%B2%D0%BE%D0%B9%20%D1%81%D1%86%D0%B5%D0%BD%D0%B0%D1%80%D0%B8%D0%B9/%D1%86%D0%B5%D0%BD%D1%82%D1%80%D0%B0%D0%BB%D1%8C%D0%BD%D0%BE%D1%81%D1%82%D1%8C/%D1%86%D0%B5%D0%BD%D1%82%D1%80%D0%B0%D0%BB%D1%8C%D0%BD%D0%BE%D1%81%D1%82%D1%8C%20%D1%81%D0%B5%D1%80%D0%B2%D0%B8%D1%81%D0%BE%D0%B2.png)
 
 ![Центральность сервисов](https://github.com/apolliness/Data-analysis-Siversky/blob/838b32c502511ade30de5bbb8d0dc31c3087b53d/%D0%BD%D1%83%D0%BB%D0%B5%D0%B2%D0%BE%D0%B9%20%D1%81%D1%86%D0%B5%D0%BD%D0%B0%D1%80%D0%B8%D0%B9/%D1%86%D0%B5%D0%BD%D1%82%D1%80%D0%B0%D0%BB%D1%8C%D0%BD%D0%BE%D1%81%D1%82%D1%8C/%D1%86%D0%B5%D0%BD%D1%82%D1%80%D0%B0%D0%BB%D1%8C%D0%BD%D0%BE%D1%81%D1%82%D1%8C%20%D1%81%D0%B5%D1%80%D0%B2%D0%B8%D1%81%D0%BE%D0%B2.png)
 
-- Типы землепользования
+- [Типы землепользования](https://github.com/apolliness/Data-analysis-Siversky/blob/838b32c502511ade30de5bbb8d0dc31c3087b53d/%D0%BD%D1%83%D0%BB%D0%B5%D0%B2%D0%BE%D0%B9%20%D1%81%D1%86%D0%B5%D0%BD%D0%B0%D1%80%D0%B8%D0%B9/LandUse/land_use_0.png)
 
 ![Землепользование](https://github.com/apolliness/Data-analysis-Siversky/blob/838b32c502511ade30de5bbb8d0dc31c3087b53d/%D0%BD%D1%83%D0%BB%D0%B5%D0%B2%D0%BE%D0%B9%20%D1%81%D1%86%D0%B5%D0%BD%D0%B0%D1%80%D0%B8%D0%B9/LandUse/land_use_0.png)
 
-- Морфотипы застройки
+- [Морфотипы застройки](https://github.com/apolliness/Data-analysis-Siversky/blob/838b32c502511ade30de5bbb8d0dc31c3087b53d/%D0%BD%D1%83%D0%BB%D0%B5%D0%B2%D0%BE%D0%B9%20%D1%81%D1%86%D0%B5%D0%BD%D0%B0%D1%80%D0%B8%D0%B9/SpaceMatrix/SpaceMatrix.png)
 
 ![Застройка](https://github.com/apolliness/Data-analysis-Siversky/blob/838b32c502511ade30de5bbb8d0dc31c3087b53d/%D0%BD%D1%83%D0%BB%D0%B5%D0%B2%D0%BE%D0%B9%20%D1%81%D1%86%D0%B5%D0%BD%D0%B0%D1%80%D0%B8%D0%B9/SpaceMatrix/SpaceMatrix.png)
-
-<img src="[http://url.to/image.png](https://github.com/apolliness/Data-analysis-Siversky/blob/838b32c502511ade30de5bbb8d0dc31c3087b53d/%D0%BD%D1%83%D0%BB%D0%B5%D0%B2%D0%BE%D0%B9%20%D1%81%D1%86%D0%B5%D0%BD%D0%B0%D1%80%D0%B8%D0%B9/SpaceMatrix/SpaceMatrix.png)" width="200" height="200">
 
 ### Гипотеза №1
 #### Описание
@@ -98,6 +96,8 @@
 
 #### Подготовка данных и создание модели территории
 Кварталы для территории были отрисованы вручную.
+
+![Кварталы](https://github.com/apolliness/Data-analysis-Siversky/blob/6faf10279789c9c47a83f99bc7b68210a7f1af7d/%D0%B3%D0%B8%D0%BF%D0%BE%D1%82%D0%B5%D0%B7%D0%B0%201/qgis/%D0%BA%D0%B2%D0%B0%D1%80%D1%82%D0%B0%D0%BB%D1%8B.png)
 
 Далее с помощью rTIM были получены параметры жилой застройки и технико-экономические показатели (ТЭП). Спроектированная территория заняла площадь 84,67 га на северо-западе исследуемой территории со следующими ТЭП:
  
@@ -116,6 +116,8 @@
 Расчетное суммарное количество мест стоянки автомобилей | 1174
 
 Максимальная высота зданий в данном сценарии достигает 9 этажей.
+
+![Здания](https://github.com/apolliness/Data-analysis-Siversky/blob/6faf10279789c9c47a83f99bc7b68210a7f1af7d/%D0%B3%D0%B8%D0%BF%D0%BE%D1%82%D0%B5%D0%B7%D0%B0%201/qgis/%D1%8D%D1%82%D0%B0%D0%B6%D0%BD%D0%BE%D1%81%D1%82%D1%8C%20%D0%B7%D0%B4%D0%B0%D0%BD%D0%B8%D0%B9%20%D1%81%20%D1%80%D1%82%D0%B8%D0%BC.png)
 
 #### Применение методов оценки разработанной территории по гипотезе 1
 
