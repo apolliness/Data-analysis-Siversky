@@ -4,6 +4,8 @@
 Территория исследования и проектирования расположена в границах упраздненного (от 13 мая 2024) Сиверского городского поселения. Входит в Гатчинский муниципальный округ Ленинградской области. Бывший административный центр — городской посёлок Сиверский. Площадь территории составила 13,74 кв. км. Численность населения - 17 275 чел. (2023 г.)
 Территориальная доступность оценивается: до Гатчины - 30 км (45 мин на автомобильном транспорте); до Санкт-Петербурга - 68 км (1 час 30 мин на автомобильном транспорте).
 
+![Границы территории](https://github.com/apolliness/Data-analysis-Siversky/blob/e5c94e53abdd469ff77ebc6c8665c1061768780f/%D0%BD%D1%83%D0%BB%D0%B5%D0%B2%D0%BE%D0%B9%20%D1%81%D1%86%D0%B5%D0%BD%D0%B0%D1%80%D0%B8%D0%B9/qgis/1.%D0%B3%D1%80%D0%B0%D0%BD%D0%B8%D1%86%D1%8B%20%D1%82%D0%B5%D1%80%D1%80%D0%B8%D1%82%D0%BE%D1%80%D0%B8%D0%B8.png)
+
 ## Цель проекта
 Цель проекта заключается в разработке и обосновании трех гипотез по развитию проектной территории с учетом применения методов анализа данных и моделирования для их оценки, а также выборе наиболее оптимальной гипотезы для дальнейшей реализации. 
 
@@ -27,29 +29,15 @@
 ### Нулевой сценарий
 Для предварительного анализа проектной территории, расположенной в границах Сиверского городского поселения, были проведены следующие шаги:
 1. Отрисовка геометрии [границ территории](https://github.com/apolliness/Data-analysis-Siversky/blob/e5c94e53abdd469ff77ebc6c8665c1061768780f/%D0%BD%D1%83%D0%BB%D0%B5%D0%B2%D0%BE%D0%B9%20%D1%81%D1%86%D0%B5%D0%BD%D0%B0%D1%80%D0%B8%D0%B9/qgis/1.%D0%B3%D1%80%D0%B0%D0%BD%D0%B8%D1%86%D1%8B%20%D1%82%D0%B5%D1%80%D1%80%D0%B8%D1%82%D0%BE%D1%80%D0%B8%D0%B8.png).
-   
-![Границы территории](https://github.com/apolliness/Data-analysis-Siversky/blob/e5c94e53abdd469ff77ebc6c8665c1061768780f/%D0%BD%D1%83%D0%BB%D0%B5%D0%B2%D0%BE%D0%B9%20%D1%81%D1%86%D0%B5%D0%BD%D0%B0%D1%80%D0%B8%D0%B9/qgis/1.%D0%B3%D1%80%D0%B0%D0%BD%D0%B8%D1%86%D1%8B%20%D1%82%D0%B5%D1%80%D1%80%D0%B8%D1%82%D0%BE%D1%80%D0%B8%D0%B8.png)
-
 2. Получение геометрии [водных объектов, улично-дорожной сети и железных дорог](https://github.com/apolliness/Data-analysis-Siversky/blob/66cec1c49c0e888ba14a82ac3d9cdf6a5bf5c165/%D0%BD%D1%83%D0%BB%D0%B5%D0%B2%D0%BE%D0%B9%20%D1%81%D1%86%D0%B5%D0%BD%D0%B0%D1%80%D0%B8%D0%B9/qgis/2.%D0%B2%D0%BE%D0%B4%D0%B0%2C%20%D0%B6%D0%B4%20%D0%B8%20%D0%B4%D0%BE%D1%80%D0%BE%D0%B3%D0%B8.png) с помощью библиотеки OSMNX.
-   
-![Вода, ж/д и дороги](https://github.com/apolliness/Data-analysis-Siversky/blob/66cec1c49c0e888ba14a82ac3d9cdf6a5bf5c165/%D0%BD%D1%83%D0%BB%D0%B5%D0%B2%D0%BE%D0%B9%20%D1%81%D1%86%D0%B5%D0%BD%D0%B0%D1%80%D0%B8%D0%B9/qgis/2.%D0%B2%D0%BE%D0%B4%D0%B0%2C%20%D0%B6%D0%B4%20%D0%B8%20%D0%B4%D0%BE%D1%80%D0%BE%D0%B3%D0%B8.png)
-
 3. Получение слоя [городских кварталов](https://github.com/apolliness/Data-analysis-Siversky/blob/e5c94e53abdd469ff77ebc6c8665c1061768780f/%D0%BD%D1%83%D0%BB%D0%B5%D0%B2%D0%BE%D0%B9%20%D1%81%D1%86%D0%B5%D0%BD%D0%B0%D1%80%D0%B8%D0%B9/qgis/3.%D0%BA%D0%B2%D0%B0%D1%80%D1%82%D0%B0%D0%BB%D1%8B.png) с помощью BlocksGenerator. На вход были поданы следующие данные: водные объекты, дороги, железнодорожные пути.
-
-![Кварталы](https://github.com/apolliness/Data-analysis-Siversky/blob/e5c94e53abdd469ff77ebc6c8665c1061768780f/%D0%BD%D1%83%D0%BB%D0%B5%D0%B2%D0%BE%D0%B9%20%D1%81%D1%86%D0%B5%D0%BD%D0%B0%D1%80%D0%B8%D0%B9/qgis/3.%D0%BA%D0%B2%D0%B0%D1%80%D1%82%D0%B0%D0%BB%D1%8B.png)
-
 4. Получение [графа улично-дорожной сети](https://github.com/apolliness/Data-analysis-Siversky/blob/03b65bda9e205cd78efb955761ab561a8f89d366/%D0%BD%D1%83%D0%BB%D0%B5%D0%B2%D0%BE%D0%B9%20%D1%81%D1%86%D0%B5%D0%BD%D0%B0%D1%80%D0%B8%D0%B9/%D0%B3%D1%80%D0%B0%D1%84%2C%20%D0%B4%D0%BE%D1%81%D1%82%D1%83%D0%BF%D0%BD%D0%BE%D1%81%D1%82%D1%8C%2C%20%D1%81%D0%B2%D1%8F%D0%B7%D0%B0%D0%BD%D0%BD%D0%BE%D1%81%D1%82%D1%8C/graph_0.png) по полигону территории с помощью библиотеки IduEdu.
-
 5. Вычисление матрицы доступности и матрицы связанности на основе предварительно полученного графа улично-дорожной сети.
-   
-- Матрица [доступности](https://github.com/apolliness/Data-analysis-Siversky/blob/03b65bda9e205cd78efb955761ab561a8f89d366/%D0%BD%D1%83%D0%BB%D0%B5%D0%B2%D0%BE%D0%B9%20%D1%81%D1%86%D0%B5%D0%BD%D0%B0%D1%80%D0%B8%D0%B9/%D0%B3%D1%80%D0%B0%D1%84%2C%20%D0%B4%D0%BE%D1%81%D1%82%D1%83%D0%BF%D0%BD%D0%BE%D1%81%D1%82%D1%8C%2C%20%D1%81%D0%B2%D1%8F%D0%B7%D0%B0%D0%BD%D0%BD%D0%BE%D1%81%D1%82%D1%8C/Accessibility_0.png):
+- Матрица [доступности](https://github.com/apolliness/Data-analysis-Siversky/blob/03b65bda9e205cd78efb955761ab561a8f89d366/%D0%BD%D1%83%D0%BB%D0%B5%D0%B2%D0%BE%D0%B9%20%D1%81%D1%86%D0%B5%D0%BD%D0%B0%D1%80%D0%B8%D0%B9/%D0%B3%D1%80%D0%B0%D1%84%2C%20%D0%B4%D0%BE%D1%81%D1%82%D1%83%D0%BF%D0%BD%D0%BE%D1%81%D1%82%D1%8C%2C%20%D1%81%D0%B2%D1%8F%D0%B7%D0%B0%D0%BD%D0%BD%D0%BE%D1%81%D1%82%D1%8C/Accessibility_0.png)
 
 Площадь территории маленькая, поэтому среднее медианное значение от одного квартала до другого будет равняться 10-15 минут.
-
 - Матрица [связанности](https://github.com/apolliness/Data-analysis-Siversky/blob/03b65bda9e205cd78efb955761ab561a8f89d366/%D0%BD%D1%83%D0%BB%D0%B5%D0%B2%D0%BE%D0%B9%20%D1%81%D1%86%D0%B5%D0%BD%D0%B0%D1%80%D0%B8%D0%B9/%D0%B3%D1%80%D0%B0%D1%84%2C%20%D0%B4%D0%BE%D1%81%D1%82%D1%83%D0%BF%D0%BD%D0%BE%D1%81%D1%82%D1%8C%2C%20%D1%81%D0%B2%D1%8F%D0%B7%D0%B0%D0%BD%D0%BD%D0%BE%D1%81%D1%82%D1%8C/Connectivity_0.png):
-- 
 6. Получение данных по зданиям и сервисам для проектной территории с помощью библиотеки OSMNX и расчет обеспеченности для каждого типа сервиса. Ниже представлены только три:
-   
 - Обеспеченность [школами](https://github.com/apolliness/Data-analysis-Siversky/blob/838b32c502511ade30de5bbb8d0dc31c3087b53d/%D0%BD%D1%83%D0%BB%D0%B5%D0%B2%D0%BE%D0%B9%20%D1%81%D1%86%D0%B5%D0%BD%D0%B0%D1%80%D0%B8%D0%B9/%D0%BE%D0%B1%D0%B5%D1%81%D0%BF%D0%B5%D1%87%D0%B5%D0%BD%D0%BD%D0%BE%D1%81%D1%82%D1%8C%20%D1%81%D0%B5%D1%80%D0%B2%D0%B8%D1%81%D0%B0%D0%BC%D0%B8/school_0.png) исследуемой территории
 - Обеспеченность [поликлиниками](https://github.com/apolliness/Data-analysis-Siversky/blob/838b32c502511ade30de5bbb8d0dc31c3087b53d/%D0%BD%D1%83%D0%BB%D0%B5%D0%B2%D0%BE%D0%B9%20%D1%81%D1%86%D0%B5%D0%BD%D0%B0%D1%80%D0%B8%D0%B9/%D0%BE%D0%B1%D0%B5%D1%81%D0%BF%D0%B5%D1%87%D0%B5%D0%BD%D0%BD%D0%BE%D1%81%D1%82%D1%8C%20%D1%81%D0%B5%D1%80%D0%B2%D0%B8%D1%81%D0%B0%D0%BC%D0%B8/polyclinic_0.png) исследуемой территории
 - Обеспеченность [детскими садами](https://github.com/apolliness/Data-analysis-Siversky/blob/838b32c502511ade30de5bbb8d0dc31c3087b53d/%D0%BD%D1%83%D0%BB%D0%B5%D0%B2%D0%BE%D0%B9%20%D1%81%D1%86%D0%B5%D0%BD%D0%B0%D1%80%D0%B8%D0%B9/%D0%BE%D0%B1%D0%B5%D1%81%D0%BF%D0%B5%D1%87%D0%B5%D0%BD%D0%BD%D0%BE%D1%81%D1%82%D1%8C%20%D1%81%D0%B5%D1%80%D0%B2%D0%B8%D1%81%D0%B0%D0%BC%D0%B8/kindergarten_0.png) исследуемой территории
